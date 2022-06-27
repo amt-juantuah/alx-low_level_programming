@@ -4,7 +4,7 @@
 /**
  * main - prints its name, with argv
  *
- * Return: 0
+ * Return: EXIT_SUCCESS 
  */
 
 int main(int argc, char *argv[])
