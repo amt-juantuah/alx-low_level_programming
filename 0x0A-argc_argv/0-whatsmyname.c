@@ -3,8 +3,10 @@
 
 /**
  * main - prints its name, with argv
+ * @argc: int type argument
+ * @argv: char type pointer array argument
  *
- * Return: EXIT_SUCCESS 
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
