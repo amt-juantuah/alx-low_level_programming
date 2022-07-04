@@ -22,15 +22,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = "";
 	while (s1[j] != '\0')
 		j++;
-	j++;
 	k = sizeof(s2) - 1;
 
 	if (n > k)
 		n = k;
-	tmp = malloc(sizeof(char) * (j + n));
+	tmp = malloc(sizeof(char) * (j + n + 1));
 	if (tmp == NULL)
 		return (NULL);
-	j--;
+
 	if (j <= 0)
 		tmp[j] = s1[j];
 	else
