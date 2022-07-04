@@ -13,13 +13,15 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *tmp = NULL;
 	unsigned int i;
-	unsigned int j = sizeof(s1) - 1;
-	unsigned int k = sizeof(s2) - 1;
+	unsigned int j;
+	unsigned int k;
 
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
+	j = sizeof(s1) - 1;
+	k = sizeof(s2) - 1;
 
 	if (n > k)
 		n = k;
