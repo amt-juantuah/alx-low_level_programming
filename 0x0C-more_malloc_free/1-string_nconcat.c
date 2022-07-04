@@ -5,6 +5,7 @@
  * string_nconcat - concatenates two strings
  * @s1: first string argument
  * @s2: second string argument
+ * @n: number that shows length of s2 to be printed
  * Return: Null or Pointer of memory
  */
 
@@ -19,7 +20,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = "";
 	if (n > sizeof(s2) - 1)
 		n = sizeof(s2) - 1;
-	tmp = malloc(sizeof(s1) + n);
+	tmp = malloc(sizeof(s1) + n - 2);
 	if (tmp == NULL)
 		return (NULL);
 	for (i = 0; i < sizeof(s1) - 1; i++)
