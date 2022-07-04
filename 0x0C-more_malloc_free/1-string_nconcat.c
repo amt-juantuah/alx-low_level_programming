@@ -31,7 +31,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (tmp == NULL)
 		return (NULL);
 
-	if (j = 0)
+	if (j == 0)
 		tmp[j] = s1;
 	else
 	{
