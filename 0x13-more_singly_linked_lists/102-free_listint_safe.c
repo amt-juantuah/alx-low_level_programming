@@ -1,5 +1,6 @@
-#include <stdlib.h>
-#include <stdio.h>
+/**
+ * By: Richard Osei Juantuah
+ */
 #include <inttypes.h>
 #include "lists.h"
 
