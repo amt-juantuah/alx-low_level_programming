@@ -1,1 +1,3 @@
-### C - More singly linked lists
+### Singly Linked Lists
+
+By: Richard Osei Juantuah
