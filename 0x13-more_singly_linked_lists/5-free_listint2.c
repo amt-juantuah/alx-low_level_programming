@@ -1,6 +1,3 @@
-/**
- * By: Richard OSei Juantuah
- */
 #include "lists.h"
 
 /**
