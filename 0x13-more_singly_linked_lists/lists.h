@@ -1,6 +1,3 @@
-/**
- * By: Richard Osei Juantuah
- */
 #ifndef LISTS_H
 #define LISTS_H
 #include <stddef.h>
