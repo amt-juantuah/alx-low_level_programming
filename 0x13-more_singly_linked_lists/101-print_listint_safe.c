@@ -1,6 +1,3 @@
-/**
- * By: Richard Osei Juantuah
- */
 #include <inttypes.h>
 #include "lists.h"
 
